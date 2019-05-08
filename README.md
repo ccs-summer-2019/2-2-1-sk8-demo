@@ -30,7 +30,6 @@ After completing this assignment, you will be able to effectively:
 
 * Create a new repository
 * Create index.html, images/, and css/styles.css
-* Install Normalize
 * Install Bootstrap
 * Add structure using HTML
 * Add the layout styles for the largest components
