@@ -1,0 +1,73 @@
+/***************************************** GLOBAL */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url("./images/bg.jpg") no-repeat;
+  background-size: cover;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding-left: unset;
+}
+
+a {
+  text-decoration: none;
+}
+
+/***************************************** CAROUSEL */
+
+#carousel {
+  height: 30vw;
+  min-height: 300px;
+  overflow: hidden;
+  background: url('./images/top-image.png') no-repeat 35% 25%;
+  border: solid 5px #fff;
+
+  position: relative;
+}
+
+#carousel > .grid {
+  opacity: .3;
+}
+
+#carousel > .logo {
+  position: absolute;
+  left: 3%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/***************************************** ARTICLES */
+
+#news article {
+  background-color: #fff;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/***************************************** SKATEBOARDS */
+
+#skateboards {
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.skateboard-image {
+  height: 260px;
+  width: 62px;
+}
+
+.skateboard-image img {
+  transform: rotate(90deg) translateY(-100%);
+  transform-origin: left top;
+  width: 275px;
+}
